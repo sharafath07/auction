@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
-// import { BrowserProvider, Contract, formatEther, parseEther } from "ethers";
-// import abi from "./abi/AuctionHouse.json";
-// import { short, timeLeft } from "./utils/format";
+import { BrowserProvider, Contract, formatEther, parseEther } from "ethers";
+import abi from "./abi/AuctionHouse.json";
+import { short, timeLeft } from "./utils/format";
 import './App.css';
 
 const CHAIN_ID_HEX = "0x1F90"; // 8080
